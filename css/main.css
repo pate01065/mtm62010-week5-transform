@@ -163,6 +163,14 @@
 }
 
 .animation .b3{
-    animation: transformMe 1.5s 3 alternate forwards ease-in-out;
+    animation: transformMe 1.5s 11 alternate forwards ease-in-out;
 }
 
+.animation .b4{
+    animation: transformMe 1.5s 3s infinite alternate forwards;
+    cubic-bezier(.61,-0.64,.34,1.47);
+}
+
+.animation .b4:hover{
+    animation-play-state: paused;
+}
